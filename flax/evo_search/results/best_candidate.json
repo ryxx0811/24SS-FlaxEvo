@@ -1,0 +1,24 @@
+{
+  "config": {
+    "embedding_size": 64,
+    "feed_forward_size": 256,
+    "num_heads": 8,
+    "num_encoder_layers": 1,
+    "num_decoder_layers": 3,
+    "dropout_rate": 0.1
+  },
+  "fitness": -31.5369604183197,
+  "validation_loss": 7.803085250854492,
+  "train_losses": [
+    144.00746864318847,
+    20.420625686645508,
+    11.261594568888347
+  ],
+  "validation_losses": [
+    19.26879440307617,
+    9.029057445526123,
+    7.803085250854492
+  ],
+  "seed": 21,
+  "mutation_path": "initial architecture"
+}

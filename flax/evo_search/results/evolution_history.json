@@ -1,0 +1,194 @@
+[
+  {
+    "config": {
+      "embedding_size": 32,
+      "feed_forward_size": 64,
+      "num_heads": 4,
+      "num_encoder_layers": 1,
+      "num_decoder_layers": 2,
+      "dropout_rate": 0.1
+    },
+    "fitness": -46.57490845718384,
+    "validation_loss": 8.74189037322998,
+    "train_losses": [
+      191.3116896057129,
+      27.212618192036945,
+      10.771874624888103
+    ],
+    "validation_losses": [
+      38.12454132080078,
+      7.724599571228027,
+      8.74189037322998
+    ],
+    "seed": 1,
+    "mutation_path": "initial architecture"
+  },
+  {
+    "config": {
+      "embedding_size": 64,
+      "feed_forward_size": 256,
+      "num_heads": 2,
+      "num_encoder_layers": 1,
+      "num_decoder_layers": 2,
+      "dropout_rate": 0.0
+    },
+    "fitness": -75.01776534271241,
+    "validation_loss": 9.509489231109619,
+    "train_losses": [
+      127.0463909403483,
+      34.50429182688395,
+      19.17129259109497
+    ],
+    "validation_losses": [
+      22.406665420532228,
+      52.62097457885742,
+      9.509489231109619
+    ],
+    "seed": 11,
+    "mutation_path": "initial architecture"
+  },
+  {
+    "config": {
+      "embedding_size": 64,
+      "feed_forward_size": 256,
+      "num_heads": 8,
+      "num_encoder_layers": 1,
+      "num_decoder_layers": 3,
+      "dropout_rate": 0.1
+    },
+    "fitness": -31.5369604183197,
+    "validation_loss": 7.803085250854492,
+    "train_losses": [
+      144.00746864318847,
+      20.420625686645508,
+      11.261594568888347
+    ],
+    "validation_losses": [
+      19.26879440307617,
+      9.029057445526123,
+      7.803085250854492
+    ],
+    "seed": 21,
+    "mutation_path": "initial architecture"
+  },
+  {
+    "config": {
+      "embedding_size": 32,
+      "feed_forward_size": 64,
+      "num_heads": 2,
+      "num_encoder_layers": 1,
+      "num_decoder_layers": 2,
+      "dropout_rate": 0.1
+    },
+    "fitness": -53.69927184333801,
+    "validation_loss": 9.388464431762696,
+    "train_losses": [
+      183.91851013183594,
+      31.344573491414387,
+      13.524315395355224
+    ],
+    "validation_losses": [
+      38.29915145874023,
+      14.764994144439697,
+      9.388464431762696
+    ],
+    "seed": 31,
+    "mutation_path": "num_heads: 4 -> 2"
+  },
+  {
+    "config": {
+      "embedding_size": 32,
+      "feed_forward_size": 64,
+      "num_heads": 2,
+      "num_encoder_layers": 2,
+      "num_decoder_layers": 2,
+      "dropout_rate": 0.1
+    },
+    "fitness": -69.07683368988037,
+    "validation_loss": 16.71264280319214,
+    "train_losses": [
+      185.8559888712565,
+      43.76246442159017,
+      18.081222012837728
+    ],
+    "validation_losses": [
+      46.980849761962894,
+      15.89966953277588,
+      16.71264280319214
+    ],
+    "seed": 41,
+    "mutation_path": "num_encoder_layers: 1 -> 2"
+  },
+  {
+    "config": {
+      "embedding_size": 64,
+      "feed_forward_size": 256,
+      "num_heads": 8,
+      "num_encoder_layers": 3,
+      "num_decoder_layers": 3,
+      "dropout_rate": 0.1
+    },
+    "fitness": -73.68073000793457,
+    "validation_loss": 10.693304862976074,
+    "train_losses": [
+      160.23021697998047,
+      40.99357612609863,
+      25.22042334874471
+    ],
+    "validation_losses": [
+      48.74390609741211,
+      26.116512451171875,
+      10.693304862976074
+    ],
+    "seed": 51,
+    "mutation_path": "num_encoder_layers: 1 -> 3"
+  },
+  {
+    "config": {
+      "embedding_size": 32,
+      "feed_forward_size": 128,
+      "num_heads": 2,
+      "num_encoder_layers": 1,
+      "num_decoder_layers": 2,
+      "dropout_rate": 0.2
+    },
+    "fitness": -92.91358289031983,
+    "validation_loss": 10.269658279418945,
+    "train_losses": [
+      207.88910614013673,
+      51.29392570495605,
+      21.50005100886027
+    ],
+    "validation_losses": [
+      72.63637435913085,
+      26.453845977783203,
+      10.269658279418945
+    ],
+    "seed": 61,
+    "mutation_path": "feed_forward_size: 64 -> 128; dropout_rate: 0.1 -> 0.2"
+  },
+  {
+    "config": {
+      "embedding_size": 32,
+      "feed_forward_size": 128,
+      "num_heads": 2,
+      "num_encoder_layers": 2,
+      "num_decoder_layers": 2,
+      "dropout_rate": 0.1
+    },
+    "fitness": -113.2666252281189,
+    "validation_loss": 19.30277956008911,
+    "train_losses": [
+      193.9277256266276,
+      62.92441599527995,
+      31.87498997370402
+    ],
+    "validation_losses": [
+      77.94918395996093,
+      34.25000740051269,
+      19.30277956008911
+    ],
+    "seed": 71,
+    "mutation_path": "feed_forward_size: 64 -> 128"
+  }
+]
